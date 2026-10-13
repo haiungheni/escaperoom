@@ -1,0 +1,1101 @@
+{
+  "id": "plic-v1",
+  "title": "Plicul dispărut",
+  "subtitle": "5 000 de lei. Trei echipe. Două fapte diferite.",
+  "duration": 100,
+  "minDuration": 90,
+  "maxDuration": 110,
+  "groups": [
+    {
+      "id": "A",
+      "name": "Echipa 1",
+      "topic": "Mesaje și conturi",
+      "color": "violet",
+      "task": "Verificați cine vorbește, dacă profilurile sunt autentice în poveste și ce mesaje au fost schimbate."
+    },
+    {
+      "id": "B",
+      "name": "Echipa 2",
+      "topic": "Fotografii și documente",
+      "color": "coral",
+      "task": "Comparați originalele cu versiunile distribuite. Nu luați un antet sau o fotografie drept verdict."
+    },
+    {
+      "id": "C",
+      "name": "Echipa 3",
+      "topic": "Ore, trasee și declarații",
+      "color": "lime",
+      "task": "Puneți întâmplările în ordine. Legați fiecare deplasare a plicului de o sursă."
+    }
+  ],
+  "docs": [
+    {
+      "id": "O01",
+      "title": "Plicul dispărut",
+      "body": "E vineri, spre seară. La centrul de tineret se pregătește o întâlnire cu foștii voluntari. Se aduc scaune, se aranjează fotografii și se pregătesc afișe.\nDan, coordonatorul, a numărat împreună cu Mara 5 000 de lei pentru materialele atelierului de fotografie. Banii sunt într-un plic pe masa de lucru. Dan merge după dosarul în care urma să-l pună.\nCând revine, plicul nu mai este acolo. Camera de la intrare nu a înregistrat nimic. Pe pagina centrului apare o fotografie cu Ana și un comentariu care o acuză.\nDan anunță poliția. Câteva zile mai târziu, aveți copii ale documentelor strânse și ale materialelor care au circulat online. Unele persoane nu au spus tot; unele materiale sunt false.\nAflați pe unde a ajuns plicul, cine a luat banii și cine a fabricat acuzațiile. Nu alegeți un vinovat numai fiindcă pare suspect.\nLucrați în trei echipe. După fiecare rundă, puneți informațiile pe masa comună. Tot ce aveți nevoie este în materialele jocului. Nu se caută pe internet și nu se contactează persoane reale.",
+      "team": "comun",
+      "round": 0,
+      "format": "brief",
+      "source": "Introducere / de citit cu voce tare"
+    },
+    {
+      "id": "O02",
+      "title": "Fișa de numărare a plicului",
+      "body": "2 octombrie 2026 / ora 15:50\nScop: materiale pentru atelierul de fotografie.\n10 bancnote × 500 lei = 5 000 lei.\nPlic crem; pe față: „5 000 / atelier foto”. Colțul din dreapta sus este reparat cu bandă albastră. În interior este o fișă mică de numărare cu suma scrisă de mână.\nSuma verificată de: Dan și Mara. Plicul este pus pe masa de lucru.\nDan: confirm numărarea. Mara: confirm aceeași sumă.",
+      "team": "comun",
+      "round": 0,
+      "format": "ledger",
+      "source": "Centrul de tineret / evidență internă / FN-02"
+    },
+    {
+      "id": "O03",
+      "title": "Proces-verbal de constatare / extras",
+      "body": "Dosar de joc 017/2026 / 5 octombrie 2026 / ora 09:00\nSesizare: Dan, coordonatorul centrului de tineret.\nFapt relatat: la 2 octombrie, între 16:02 și 16:17, un plic cu suma declarată de 5 000 lei a dispărut de pe masa de lucru.\nAu fost primite: fișa de numărare FN-02, fotografii de la pregătiri, declarații scrise și copii ale unor postări.\nLa verificarea locului: masa de lucru în centru; canapeaua în dreapta; ușa în stânga. Lângă intrare fusese pus temporar un scaun albastru. Pragul duce spre zona exterioară comună.\nNu sunt disponibile imagini de la camera intrării. Din declarațiile primite nu se stabilește, la această etapă, cine a luat plicul.\nÎntocmit: ofițer de caz Irina Lupu. Luat la cunoștință: Dan.\nAcest extras consemnează informațiile primite; nu este un verdict.",
+      "team": "comun",
+      "round": 0,
+      "format": "police",
+      "source": "POLIȚIE / dosar fictiv 017/2026 / PC-01",
+      "artifactTitle": "PROCES-VERBAL DE CONSTATARE",
+      "capture": "assets/capturi/O03.png"
+    },
+    {
+      "id": "O04",
+      "title": "Camera de la intrare / cerere de reparație",
+      "body": "1 octombrie 2026 / ora 18:10 / tichet CAM-07\nAdministrator → service: Camera de la intrare este aprinsă, dar înregistrarea nu se salvează. Ultima înregistrare disponibilă: 1 octombrie, 17:42. Rog verificare.\nService → administrator / 2 octombrie, 09:15: Tichet primit. Intervenția este programată pentru 5 octombrie.\nNu există înregistrări pentru 2 octombrie, 16:00–16:30. Defecțiunea a fost anunțată înainte de dispariția plicului.",
+      "team": "comun",
+      "round": 0,
+      "format": "service",
+      "source": "Evidența centrului / copie tichet CAM-07"
+    },
+    {
+      "id": "O05",
+      "title": "Plicul înainte de pregătiri",
+      "body": "Fotografie făcută de Mara la numărare / 2 octombrie, 15:50.\nPlic crem cu inscripția „5 000 / atelier foto”; bandă albastră la colțul din dreapta sus. Fișa de numărare este lângă el înainte de a fi pusă în interior.\nFotografia arată aspectul plicului. Nu arată cine l-a luat.",
+      "team": "comun",
+      "round": 0,
+      "format": "photo",
+      "source": "Albumul Marei / IMG_1550",
+      "photo": 2
+    },
+    {
+      "id": "A11",
+      "title": "Postarea care o acuză pe Ana",
+      "body": "Vocea centrului / @vocea.centrului / 2 octombrie, 16:25\n„Ieri umbla cu el. Azi au dispărut banii. Mai trebuie explicat ceva?”\nFotografia atașată o arată pe Ana cu un plic. Inscripția nu este vizibilă în această versiune.\nComentarii: „Să explice unde sunt banii.” / „Eu am distribuit, să vadă toți.” / „Dați-o afară din echipă.”\n42 distribuiri / 18 comentarii. Aceste numere nu confirmă acuzația.",
+      "team": "A",
+      "round": 1,
+      "format": "post",
+      "source": "Agora / agora.example / copie a postării",
+      "photo": 0,
+      "crop": true,
+      "user": "Vocea centrului",
+      "handle": "@vocea.centrului",
+      "time": "2 oct. · 16:25",
+      "post": "Ieri umbla cu el. Azi au dispărut banii. Mai trebuie explicat ceva?",
+      "comments": [
+        "Să explice unde sunt banii.",
+        "Eu am distribuit, să vadă toți.",
+        "Dați-o afară din echipă."
+      ],
+      "note": "42 distribuiri / 18 comentarii. Numerele nu confirmă acuzația.",
+      "capture": "assets/capturi/A11.png"
+    },
+    {
+      "id": "A12",
+      "title": "Profilul cu mesajul despre bani",
+      "body": "Ana Rusu / @ana.rusuu / profil creat la 2 octombrie\n2 octombrie / 16:31: „Îi întorc luni. Nu faceți atâta gălăgie pentru 5 000.”\nFotografie de profil: Ana. Descriere: voluntară la centru.\nProfilul folosește adresa agora.example/ana.rusuu. Aceasta este copia primită de Dan, nu o confirmare a identității autorului.",
+      "team": "A",
+      "round": 1,
+      "format": "profile",
+      "source": "Agora / agora.example/ana.rusuu",
+      "user": "Ana Rusu",
+      "handle": "@ana.rusuu",
+      "time": "2 oct. · 16:31",
+      "post": "Îi întorc luni. Nu faceți atâta gălăgie pentru 5 000.",
+      "created": "2 octombrie 2026",
+      "avatar": true,
+      "note": "Copie primită de Dan. Ana declară că nu a creat acest profil și nu a publicat mesajul.",
+      "capture": "assets/capturi/A12.png"
+    },
+    {
+      "id": "A13",
+      "title": "Profilul folosit de Ana înainte de caz",
+      "body": "Ana Rusu / @ana.rusu / profil activ din februarie 2024\n1 octombrie / 18:20: „Mâine pregătim sala. Cine poate aduce cleme pentru afișe?”\nAdresa: agora.example/ana.rusu.\nAna a furnizat această copie a profilului pe care îl folosește. Ea declară că nu a creat profilul @ana.rusuu și nu a publicat mesajul despre bani.\nO poză identică nu înseamnă că două conturi au același proprietar.",
+      "team": "A",
+      "round": 1,
+      "format": "profile",
+      "source": "Copie furnizată de Ana / profilul ei",
+      "user": "Ana Rusu",
+      "handle": "@ana.rusu",
+      "time": "1 oct. · 18:20",
+      "post": "Mâine pregătim sala. Cine poate aduce cleme pentru afișe?",
+      "created": "februarie 2024",
+      "avatar": true,
+      "note": "Ana a furnizat copia profilului pe care îl folosește. Declară că nu a creat @ana.rusuu.",
+      "capture": "assets/capturi/A13.png"
+    },
+    {
+      "id": "A14",
+      "title": "Prima declarație a Anei",
+      "body": "5 octombrie / 09:20\nÎn poza de ieri țineam afișele. Nu am luat niciun plic cu bani. Eu nu am scris că îi întorc luni.\nNu am luat nimic de pe masa lui Dan. Am pregătit afișele lângă intrare, apoi m-am întors în sală.\nCând au început comentariile, mi-a fost frică să mai spun ceva. Cineva mi-a trimis și mesajul „Să nu te mai vedem la centru”.\nDeclarație oferită în poveste de Ana. Prima relatare; poate fi comparată cu alte materiale.",
+      "team": "A",
+      "round": 1,
+      "format": "statement",
+      "source": "Declarație fictivă / DA-01"
+    },
+    {
+      "id": "B11",
+      "title": "Fotografia distribuită",
+      "body": "Versiune primită de Dan odată cu postarea de la 16:25.\nFotografia a fost decupată. Nu se vede partea de jos a plicului și nici inscripția.\nFișier primit: ana_plic_distribuit.png. Ora distribuirii nu este ora fotografierii.",
+      "team": "B",
+      "round": 1,
+      "format": "photo",
+      "source": "Copie din postarea @vocea.centrului",
+      "photo": 0,
+      "crop": true
+    },
+    {
+      "id": "B12",
+      "title": "Fotografia întreagă",
+      "body": "Fotografia din albumul de pregătiri / 1 octombrie, 17:35.\nPe plic scrie „AFIȘE”. Aceeași haină, aceeași poziție a mâinilor și același fundal se văd în versiunea distribuită.\nMara, fotografa: aceasta este fotografia făcută de mine cu o zi înainte. Nu este o fotografie din momentul dispariției banilor.",
+      "team": "B",
+      "round": 1,
+      "format": "photo",
+      "source": "Albumul Marei / IMG_1735",
+      "photo": 0
+    },
+    {
+      "id": "B13",
+      "title": "Sala în timpul pregătirilor",
+      "body": "2 octombrie / 16:06 / fotografie de ansamblu făcută de Mara.\nAna ține o mapă albastră lângă ușa din stânga. Un scaun albastru este pus temporar în dreptul intrării. Canapeaua este în dreapta.\nNu se vede în fotografie nici plicul cu bani, nici o persoană luându-l.",
+      "team": "B",
+      "round": 1,
+      "format": "photo",
+      "source": "Albumul Marei / IMG_1606",
+      "photo": 1
+    },
+    {
+      "id": "B14",
+      "title": "Fișa fotografiilor originale",
+      "body": "Album pus la dispoziție de Mara / 5 octombrie, 09:25\nIMG_1735: 1 octombrie, 17:35 / Ana cu afișele.\nIMG_1550: 2 octombrie, 15:50 / plicul și fișa de numărare.\nIMG_1606: 2 octombrie, 16:06 / pregătirile de la intrare.\nMara confirmă că versiunile din album sunt fotografiile sale întregi. ana_plic_distribuit.png este o copie decupată, nu un original din album.",
+      "team": "B",
+      "round": 1,
+      "format": "ledger",
+      "source": "Albumul Marei / inventar foto IF-01"
+    },
+    {
+      "id": "C11",
+      "title": "Cine a fost în sală",
+      "body": "2 octombrie / foaie de pregătiri, nu registru al tuturor trecătorilor\nDan: 15:00–16:02; revine la 16:17.\nMara: în sală de la 15:10; face fotografii.\nAna: de la 15:15; pregătește afișe, merge până la intrare.\nSergiu: de la 15:20; aranjează mesele, merge după șervețele.\nDenis: aduce o cutie la 15:30 și pleacă la 15:40.\nLângă intrare au trecut un curier, o vecină cu niște cutii și cineva care făcea curat la spațiile de alături. Persoanele care nu au intrat în sală nu sunt trecute individual pe această foaie.",
+      "team": "C",
+      "round": 1,
+      "format": "ledger",
+      "source": "Foaia pregătirilor / FP-02"
+    },
+    {
+      "id": "C12",
+      "title": "Nota lui Dan despre interval",
+      "body": "La 15:50 am numărat plicul cu Mara. La 16:02 m-am dus după dosar. Când am revenit, la 16:17, plicul nu mai era pe masă.\nNu am verificat fiecare persoană care a trecut pe lângă ușă. Eu eram în încăperea cu dosarele în acel interval.\nNu știu când a dispărut de pe masă și nici cine l-a luat. Camera nu poate lămuri acest lucru.",
+      "team": "C",
+      "round": 1,
+      "format": "statement",
+      "source": "Declarația fictivă a lui Dan / DD-01"
+    },
+    {
+      "id": "C13",
+      "title": "Lista de lucru pentru intrare",
+      "body": "Pregătiri, 2 octombrie\nAna: scoate afișele din mapa albastră și prinde-le pe suportul de la intrare. După ce termini, adu mapa înapoi pe masă.\nSergiu: lasă culoarul liber după mutarea scaunelor.\nScaunul albastru de lângă prag este temporar. Nu este destinat invitaților.\nNu sunt prevăzute probe sau materiale în dulapurile reale ale centrului.",
+      "team": "C",
+      "round": 1,
+      "format": "note",
+      "source": "Bilețelul de pregătiri / BP-01"
+    },
+    {
+      "id": "C14",
+      "title": "Schița locului",
+      "body": "Intrarea este în stânga; canapeaua în dreapta; mesele în centru. Scaunul albastru a fost lângă prag în timpul pregătirilor.\nPe partea exterioară este o zonă comună de trecere spre spațiile comerciale alăturate. Cine trece pe acolo nu trebuie să intre în centru.\nSchița reprezintă cazul. În joc, toate materialele sunt în aceeași sală; nu ieșiți să cercetați spațiile reale.",
+      "team": "C",
+      "round": 1,
+      "format": "map",
+      "source": "Schiță de caz / nu plan tehnic",
+      "map": true
+    },
+    {
+      "id": "A21",
+      "title": "Captura despre Sergiu",
+      "body": "Sergiu / 16:03: Ia plicul. Împărțim banii după.\nAna / 16:03: Bine, îl duc la intrare.\nSergiu / 16:04: Vin imediat.\nCaptură distribuită la 2 octombrie, 16:42, de @vocea.centrului. Nu este conversația furnizată de interlocutori.",
+      "team": "A",
+      "round": 2,
+      "format": "chat",
+      "source": "Captură primită în grupul voluntarilor",
+      "messages": [
+        [
+          "Sergiu",
+          "16:03",
+          "Ia plicul. Împărțim banii după."
+        ],
+        [
+          "Ana",
+          "16:03",
+          "Bine, îl duc la intrare."
+        ],
+        [
+          "Sergiu",
+          "16:04",
+          "Vin imediat."
+        ]
+      ],
+      "chatTitle": "Ana · conversație cu Sergiu",
+      "time": "2 octombrie",
+      "note": "Captură distribuită la 2 octombrie, 16:42, de @vocea.centrului. Nu este conversația furnizată de interlocutori.",
+      "capture": "assets/capturi/A21.png"
+    },
+    {
+      "id": "A22",
+      "title": "Conversația furnizată de Ana",
+      "body": "Sergiu / 16:03: Ia mapa. Împărțim afișele după.\nAna / 16:03: Bine, o duc la intrare.\nSergiu / 16:04: S-a vărsat apă pe masă. Mut plicul pe partea uscată, peste mapă. Mă duc după șervețele.\nAna / 16:08: Am pus afișele. Mapa e înapoi pe masă.\nSergiu / 16:09: Am revenit. Șterg masa acum.\nAna pune la dispoziție conversația integrală; Sergiu confirmă aceleași mesaje.",
+      "team": "A",
+      "round": 2,
+      "format": "chat",
+      "source": "Copie oferită de interlocutori / CA-02",
+      "messages": [
+        [
+          "Sergiu",
+          "16:03",
+          "Ia mapa. Împărțim afișele după."
+        ],
+        [
+          "Ana",
+          "16:03",
+          "Bine, o duc la intrare."
+        ],
+        [
+          "Sergiu",
+          "16:04",
+          "S-a vărsat apă pe masă. Mut plicul pe partea uscată, peste mapă. Mă duc după șervețele."
+        ],
+        [
+          "Ana",
+          "16:08",
+          "Am pus afișele. Mapa e înapoi pe masă."
+        ],
+        [
+          "Sergiu",
+          "16:09",
+          "Am revenit. Șterg masa acum."
+        ]
+      ],
+      "chatTitle": "Ana · conversație cu Sergiu",
+      "time": "2 octombrie",
+      "note": "Ana pune la dispoziție conversația integrală; Sergiu confirmă aceleași mesaje.",
+      "capture": "assets/capturi/A22.png"
+    },
+    {
+      "id": "A23",
+      "title": "Ce a primit Ana după acuzație",
+      "body": "2 octombrie / materiale păstrate de Ana\n16:34: „Să nu mai vii la centru.”\n16:36: fotografie de profil redistribuită cu textul „Voluntara anului”.\n16:39: „Să dea banii, după aceea să vorbească.”\nAna: am păstrat copiile, i-am spus lui Dan și am cerut să fie oprite mesajele. Nu am răspuns cu insulte și nu am publicat datele celor care mi-au scris.\nAceste mesaje arată hărțuirea, nu demonstrează furtul.",
+      "team": "A",
+      "round": 2,
+      "format": "post",
+      "source": "Copii furnizate de Ana / HA-01",
+      "user": "Mesaje primite de Ana",
+      "handle": "arhivă personală",
+      "time": "2 oct. · 16:34–16:39",
+      "post": "După acuzație au început mesajele.",
+      "comments": [
+        "Să nu mai vii la centru.",
+        "Voluntara anului.",
+        "Să dea banii, după aceea să vorbească."
+      ],
+      "note": "Ana a păstrat copiile, i-a spus lui Dan și a cerut oprirea mesajelor. Nu a răspuns cu insulte și nu a publicat date personale.",
+      "capture": "assets/capturi/A23.png"
+    },
+    {
+      "id": "A24",
+      "title": "Împrumutul lui Sergiu",
+      "body": "Declarația colegului / 5 octombrie, 10:10\nI-am împrumutat lui Sergiu 200 de lei pentru transport pe 30 septembrie. Mi i-a întors pe 1 octombrie. Nu am spus că ar fi avut o datorie de 5 000 de lei.\nMesaj păstrat / 1 octombrie, 19:10: Sergiu — „Ți-am întors cei 200. Mulțumesc că m-ai ajutat.”\nO nevoie de bani nu dovedește că o persoană a furat. Verificați ce știe efectiv martorul.",
+      "team": "A",
+      "round": 2,
+      "format": "statement",
+      "source": "Declarație fictivă / DS-02"
+    },
+    {
+      "id": "B21",
+      "title": "Documentul care circulă în grup",
+      "body": "NOTĂ 04 / dosar 017/2026 / 5 octombrie, 09:10\nAu fost analizate fișele cu sumele de 5 300 lei și 5 000 lei.\nLipsa banilor a fost pusă în legătură cu diferențele din evidența coordonatorului Dan. Există motive să fie considerat responsabil pentru dispariția plicului.\nNume tipărit: Irina Lupu.\nCopie transmisă în grup la 09:35. Proveniență declarată de expeditor: „de la poliție”.",
+      "team": "B",
+      "round": 2,
+      "format": "police",
+      "source": "Fotografie distribuită online / proveniență neverificată",
+      "reference": "NOTĂ 04 / COPIE DISTRIBUITĂ",
+      "artifactTitle": "NOTĂ DE EXAMINARE A DOCUMENTELOR",
+      "capture": "assets/capturi/B21.png"
+    },
+    {
+      "id": "B22",
+      "title": "Nota 04 / copia verificată",
+      "body": "NOTĂ 04 / dosar fictiv 017/2026 / 5 octombrie, 09:10\nAu fost primite fișele cu sumele de 5 300 lei și 5 000 lei, împreună cu documentul unei cheltuieli de 300 lei.\nSuma reclamată ca dispărută este 5 000 lei. Documentele primite urmează a fi comparate. Această notă nu atribuie furtul coordonatorului sau altei persoane.\nÎntocmit: Irina Lupu.\nAceasta este copia care corespunde documentului păstrat în dosarul de joc.",
+      "team": "B",
+      "round": 2,
+      "format": "police",
+      "source": "Copie verificată / NOTĂ 04",
+      "reference": "NOTĂ 04 / COPIE DIN DOSAR",
+      "artifactTitle": "NOTĂ DE EXAMINARE A DOCUMENTELOR",
+      "capture": "assets/capturi/B22.png"
+    },
+    {
+      "id": "B23",
+      "title": "Fișa încasărilor și soldului",
+      "body": "Târgul voluntarilor / 2 octombrie / FI-02\nÎncasări totale: 5 300 lei.\nCheltuială înainte de închiderea evidenței: 300 lei / bon B-103.\nSold numărat la 15:50: 5 000 lei.\nDestinația soldului: materiale pentru atelierul de fotografie.\nVerificat de Dan și Mara. Pentru cheltuială consultați bonul B-103, nu presupuneți o lipsă.",
+      "team": "B",
+      "round": 2,
+      "format": "ledger",
+      "source": "Evidența centrului / FI-02"
+    },
+    {
+      "id": "B24",
+      "title": "Clarificarea copiei distribuite",
+      "body": "Dosar fictiv 017/2026 / CL-04 / 5 octombrie, 11:00\nCopia distribuită în grup sub titlul NOTĂ 04 nu corespunde copiei păstrate în dosar.\nAu fost adăugate frazele despre responsabilitatea coordonatorului; a fost eliminată mențiunea cheltuielii de 300 lei.\nAspectul și numele tipărit nu confirmă proveniența unui document. Pentru comparație sunt furnizate ambele versiuni.\nNicio copie a NOTEI 04 nu consemnează că Dan a recunoscut un furt.",
+      "team": "B",
+      "round": 2,
+      "format": "police",
+      "source": "Clarificare fictivă / CL-04",
+      "artifactTitle": "NOTĂ DE CLARIFICARE",
+      "capture": "assets/capturi/B24.png"
+    },
+    {
+      "id": "C21",
+      "title": "Declarația lui Sergiu",
+      "body": "5 octombrie / 09:45\nLa 16:04 s-a vărsat apă pe masă. Am ridicat plicul și l-am pus pe partea uscată, peste mapa albastră. Nu l-am deschis. Am mers după șervețele.\nNu i-am spus Anei că îl pusesem acolo. Când m-am întors, mapa era din nou pe masă, iar Ana terminase cu afișele.\nNu am văzut plicul căzând și nu am văzut cine l-a luat. În captura distribuită apar cuvinte pe care nu le-am scris.",
+      "team": "C",
+      "round": 2,
+      "format": "statement",
+      "source": "Declarație fictivă / DS-01"
+    },
+    {
+      "id": "C22",
+      "title": "Ana completează declarația",
+      "body": "5 octombrie / 10:00 / completare DA-02\nAm luat mapa albastră de pe masa lui Dan la 16:06. Nu am luat intenționat un plic. Am deschis mapa lângă scaunul de la intrare ca să scot afișele.\nNu m-am uitat după scaun și nu am observat să cadă ceva. La 16:08 am pus mapa înapoi pe masă.\nÎn prima declarație am spus că nu am luat nimic de pe masă. Nu era corect: luasem mapa. Mi-a fost frică să spun, fiindcă toți vorbeau deja despre mine.",
+      "team": "C",
+      "round": 2,
+      "format": "statement",
+      "source": "Completare fictivă / DA-02"
+    },
+    {
+      "id": "C23",
+      "title": "Bonul pentru cei 300 de lei",
+      "body": "ATELIER HÂRTIE / magazin fictiv\nBON B-103 / 2 octombrie 2026 / 14:35\nCarton pentru afișe: 120 lei\nBandă adezivă: 80 lei\nCleme pentru panou: 100 lei\nTOTAL: 300 lei / achitat numerar\nPrimitor în evidența centrului: Dan. Cheltuiala este consemnată în FI-02 înainte de numărarea plicului.",
+      "team": "C",
+      "round": 2,
+      "format": "receipt",
+      "source": "Bon de recuzită / fără date fiscale reale"
+    },
+    {
+      "id": "C24",
+      "title": "Mara despre masa udă",
+      "body": "5 octombrie / 10:20\nAm văzut apa pe masă în jur de 16:04. Sergiu a mutat plicul pe mapa albastră și a plecat după șervețele. Nu a pus plicul în buzunar.\nLa 16:06 am fotografiat-o pe Ana cu mapa lângă intrare. Pe lângă prag era scaunul albastru. La 16:08 era din nou în sală.\nNu văd în fotografia mea partea de dincolo de scaun. Fotografia nu poate arăta dacă era ceva pe jos.",
+      "team": "C",
+      "round": 2,
+      "format": "statement",
+      "source": "Declarație fictivă / DM-01"
+    },
+    {
+      "id": "A31",
+      "title": "Conversația primită de la Lilia",
+      "body": "Denis / 2 oct. 16:22: Am poza cu Ana. Dacă tai partea cu AFIȘE, o să creadă că ține banii.\nLilia / 2 oct. 16:23: Nu pune asta. Nu știi cine a luat plicul.\nDenis / 2 oct. 16:30: Am făcut și profilul cu numele ei. Las-o să explice.\nLilia / 5 oct. 09:32: De ce ai schimbat textul notei despre Dan?\nDenis / 5 oct. 09:33: Să-i creadă pe toți implicați. Am pus și captura cu Sergiu.\nLilia / 5 oct. 09:34: Nu mai distribui. Îi trimit lui Dan conversația întreagă.\nLilia pune la dispoziție conversația și atașamentele primite.",
+      "team": "A",
+      "round": 3,
+      "format": "chat",
+      "source": "Copie furnizată de interlocutor / LD-01",
+      "messages": [
+        [
+          "Denis",
+          "2 oct. 16:22",
+          "Am poza cu Ana. Dacă tai partea cu AFIȘE, o să creadă că ține banii."
+        ],
+        [
+          "Lilia",
+          "2 oct. 16:23",
+          "Nu pune asta. Nu știi cine a luat plicul."
+        ],
+        [
+          "Denis",
+          "2 oct. 16:30",
+          "Am făcut și profilul cu numele ei. Las-o să explice."
+        ],
+        [
+          "Lilia",
+          "5 oct. 09:32",
+          "De ce ai schimbat textul notei despre Dan?"
+        ],
+        [
+          "Denis",
+          "5 oct. 09:33",
+          "Să-i creadă pe toți implicați. Am pus și captura cu Sergiu."
+        ],
+        [
+          "Lilia",
+          "5 oct. 09:34",
+          "Nu mai distribui. Îi trimit lui Dan conversația întreagă."
+        ]
+      ],
+      "chatTitle": "Lilia · conversație cu Denis",
+      "time": "2–5 octombrie",
+      "note": "Lilia pune la dispoziție conversația și atașamentele primite.",
+      "capture": "assets/capturi/A31.png"
+    },
+    {
+      "id": "A32",
+      "title": "Declarația Liliei",
+      "body": "5 octombrie / 11:20\nAm primit de la Denis poza decupată, captura schimbată și copia notei despre Dan. I-am spus să nu le publice. În conversația completă se văd mesajele și ordinea atașamentelor.\nAna și Denis avuseseră un conflict după ce ea refuzase să-i publice un filmuleț în care își bătea joc de un alt voluntar. Asta explică supărarea lui, dar nu dovedește singură cine a făcut contul.\nNu l-am văzut pe Denis luând bani. Nu știu unde este plicul.",
+      "team": "A",
+      "round": 3,
+      "format": "statement",
+      "source": "Declarație fictivă / DL-01"
+    },
+    {
+      "id": "A33",
+      "title": "Declarația lui Denis",
+      "body": "5 octombrie / 13:10\nEu am făcut profilul @ana.rusuu și postările de pe @vocea.centrului. Am schimbat mesajele lui Sergiu și textul notei despre Dan. Fotografia Anei era publică; copia notei o primisem în grup.\nEram supărat pe Ana și am folosit vestea despre bani ca să o fac de rușine. Nu am luat plicul și nu știu unde este. Plecasem de la centru înainte să fie pus pe masă.\nRecunosc falsificările. Accept ca materialele furnizate de Lilia să fie comparate cu ce am trimis eu.",
+      "team": "A",
+      "round": 3,
+      "format": "statement",
+      "source": "Declarație fictivă / DDEN-01"
+    },
+    {
+      "id": "B31",
+      "title": "Inventarul materialelor comparate",
+      "body": "Dosar fictiv 017/2026 / IM-03 / 5 octombrie, 12:00\n1. Fotografie originală IMG_1735, furnizată de Mara; copie decupată primită de Lilia de la Denis; aceeași copie în postarea @vocea.centrului.\n2. Conversația Ana–Sergiu, furnizată de interlocutori; versiune modificată primită de Lilia de la Denis; aceeași versiune distribuită la 16:42.\n3. NOTĂ 04 din dosarul de joc; copie cu fraze adăugate despre Dan, primită de Lilia de la Denis și distribuită în grup.\nMaterialele confirmă legătura lui Denis cu falsificările. Nu consemnează recuperarea banilor de la el.",
+      "team": "B",
+      "round": 3,
+      "format": "police",
+      "source": "Inventar fictiv / IM-03",
+      "artifactTitle": "INVENTAR AL MATERIALELOR PRIMITE",
+      "capture": "assets/capturi/B31.png"
+    },
+    {
+      "id": "B32",
+      "title": "Fișa de sosire la atelierul din bibliotecă",
+      "body": "2 octombrie / atelier de machete / bibliotecă fictivă\nParticipant: Denis / sosire 16:00 / plecare 17:25.\nResponsabilul atelierului, Elena: Denis a lucrat la aceeași masă de la început până la pauza de la 17:20. Nu a lipsit între 16:00 și 16:30.\nFișa este furnizată de organizator, separat de declarația lui Denis. Biblioteca nu se află în clădirea centrului.",
+      "team": "B",
+      "round": 3,
+      "format": "ledger",
+      "source": "Evidența organizatorului / AB-02"
+    },
+    {
+      "id": "B33",
+      "title": "Bonul de deplasare",
+      "body": "TRANSPORT LOCAL / cursă fictivă TL-204\n2 octombrie / preluare 15:41 / sosire 15:54\nPunct de plecare: zona centrului de tineret\nDestinație: biblioteca de cartier\nPasager: Denis / sumă 45 lei\nBon furnizat în poveste împreună cu confirmarea șoferului: cursa s-a încheiat la destinația indicată. Nu este o înregistrare GPS și nu folosește date personale reale.",
+      "team": "B",
+      "round": 3,
+      "format": "receipt",
+      "source": "Bon de recuzită / TL-204"
+    },
+    {
+      "id": "C31",
+      "title": "Declarația curierului",
+      "body": "5 octombrie / 11:40\nAm ajuns la intrarea centrului la 16:09. Ana era deja în sală. Lângă prag, dinspre exterior, cineva cu un cărucior de curățenie s-a aplecat după scaunul albastru și a ridicat ceva crem.\nAm crezut că strânge hârtii. Nu i-am văzut bine fața și nu pot spune cine era. Căruciorul avea găleată portocalie; pe fișa prinsă de mâner scria C2.\nOra o știu din documentul de livrare, nu din memorie.",
+      "team": "C",
+      "round": 3,
+      "format": "statement",
+      "source": "Declarație fictivă / DC-01"
+    },
+    {
+      "id": "C32",
+      "title": "Documentul de livrare",
+      "body": "Livrare L-219 / 2 octombrie\n16:09 — curier ajuns la intrarea centrului\n16:11 — cutia predată Marei\n16:13 — livrare închisă\nConținut: hârtie pentru imprimantă. Valoare achitată anterior; nu s-au predat bani curierului.\nMara confirmă primirea cutiei. Documentul fixează intervalul relatat în DC-01.",
+      "team": "C",
+      "round": 3,
+      "format": "ledger",
+      "source": "Evidență fictivă a livrării / L-219"
+    },
+    {
+      "id": "C33",
+      "title": "Declarația vecinei",
+      "body": "5 octombrie / 12:10\nÎn jur de 16:12 duceam niște cutii spre spațiile comerciale. Am văzut un cărucior cu găleată portocalie intrând pe ușa spațiului de serviciu al clădirii de alături. Pe suport era fișa C2.\nNu am văzut bani și nu am văzut persoana luând ceva. Nu pot recunoaște fața din acel moment.\nSpațiul de serviciu aparține clădirii de alături, nu centrului de tineret.",
+      "team": "C",
+      "round": 3,
+      "format": "statement",
+      "source": "Declarație fictivă / DV-01"
+    },
+    {
+      "id": "C34",
+      "title": "Verificarea tehnică a camerei",
+      "body": "5 octombrie / raport fictiv RT-07\nTichetul CAM-07 a fost înregistrat la 1 octombrie, 18:10, înainte de dispariția plicului.\nCamera avea o defecțiune de salvare. Pentru 2 octombrie nu sunt disponibile înregistrări. Nu a fost recuperată o filmare cu furtul.\nDin materialele acestei verificări nu rezultă că defecțiunea a fost provocată pentru a lua banii. Lipsa imaginilor nu dovedește cine este hoțul.",
+      "team": "C",
+      "round": 3,
+      "format": "service",
+      "source": "Raport de recuzită / RT-07"
+    },
+    {
+      "id": "A41",
+      "title": "Programul curățeniei de alături",
+      "body": "2 octombrie / spațiile comerciale de alături / PCUR-02\nLarisa: curățenie în interior, 15:30–15:55; cărucior C2.\nVictor: curățenie exterioară, 15:55–16:15; cărucior C2.\nLarisa: curățenie în interior, 16:15–16:40; cărucior C2.\nGheorghe: întreținere în curtea din spate, 15:45–16:30; cărucior C1.\nVictor este paznicul spațiilor comerciale și se ocupă și de curățenia din jurul lor. Nu este angajat al centrului de tineret.",
+      "team": "A",
+      "round": 4,
+      "format": "ledger",
+      "source": "Evidența clădirii vecine / PCUR-02"
+    },
+    {
+      "id": "A42",
+      "title": "Predarea căruciorului",
+      "body": "2 octombrie / fișa C2 / PE-02\n15:55 — Larisa predă C2 lui Victor.\n16:15 — Victor predă C2 Larisei.\nObservație Larisa: la predarea de la 16:15 nu mi-a spus că găsise un plic sau bani. Fișa de predare era prinsă de mâner.\nCăruciorul este comun. Identificarea celui care îl folosea depinde de interval, nu doar de culoarea găleții.",
+      "team": "A",
+      "round": 4,
+      "format": "ledger",
+      "source": "Fișă fictivă de echipament / PE-02"
+    },
+    {
+      "id": "A43",
+      "title": "Relatarea inițială a lui Victor",
+      "body": "5 octombrie / 10:40\nVineri am făcut curat pe afară la spațiile comerciale. Nu am intrat în centrul de tineret. Am strâns hârtii și am dus căruciorul în spațiul de serviciu. La 16:15 l-am predat Larisei.\nNu cunosc discuțiile voluntarilor și nu folosesc grupul lor.\nAceastă relatare nu precizează fiecare obiect ridicat de pe jos. Faptul că nu a intrat în centru trebuie comparat cu locul în care putea ajunge plicul.",
+      "team": "A",
+      "round": 4,
+      "format": "statement",
+      "source": "Declarație fictivă / DVI-01"
+    },
+    {
+      "id": "B41",
+      "title": "Căruciorul din zona de serviciu",
+      "body": "Fotografie de context a căruciorului cu găleată portocalie, lângă ușa spațiului de serviciu.\nFișa de echipament identifică acest set drept C2. Fotografia arată obiectul și locul; nu arată cine l-a folosit la ora furtului.\nNu este imagine de la camera defectă și nu este o filmare a furtului.",
+      "team": "B",
+      "round": 4,
+      "format": "photo",
+      "source": "Fotografie de context / FC2-01",
+      "photo": 3
+    },
+    {
+      "id": "B42",
+      "title": "Proces-verbal privind recuperarea / extras",
+      "body": "Dosar fictiv 017/2026 / PR-08 / 6 octombrie, 09:30\nLoc consemnat: spațiul de serviciu al clădirii vecine, dulapul personal nr. 8.\nObiecte consemnate: un plic crem cu inscripția „5 000 / atelier foto”; bandă albastră pe colțul din dreapta sus; o fișă de numărare cu suma scrisă de mână; suma de 5 000 lei.\nFotografiile anexate și inventarul sunt furnizate pentru compararea obiectelor cu cele reclamate.\nAcesta este extrasul despre obiecte. Identificarea persoanei se verifică separat prin evidența dulapurilor și materialele finale.\nÎntocmit: Irina Lupu.",
+      "team": "B",
+      "round": 4,
+      "format": "police",
+      "source": "Proces-verbal fictiv / PR-08",
+      "reference": "PR-08 / EXTRAS OBIECTE",
+      "artifactTitle": "PROCES-VERBAL PRIVIND RECUPERAREA OBIECTELOR",
+      "capture": "assets/capturi/B42.png"
+    },
+    {
+      "id": "B43",
+      "title": "Fotografia plicului recuperat",
+      "body": "Anexă de joc la PR-08: plicul recuperat și fișa mică de numărare.\nInscripția, colțul reparat și fișa corespund descrierii O02 și fotografiei O05. Plicul este fotografiat pe masa de examinare.\nComparați și suma consemnată în PR-08; o fotografie a unui plic nu arată singură câți bani sunt în el.",
+      "team": "B",
+      "round": 4,
+      "format": "photo",
+      "source": "Anexă fotografică fictivă / PR-08-A",
+      "photo": 4
+    },
+    {
+      "id": "C41",
+      "title": "Schița traseului refăcut",
+      "body": "Repere pentru ordonare, de verificat cu surse:\nMasa de lucru → mapa albastră → ușa din stânga → zona de după scaun, dinspre exterior → cărucior C2 → spațiul de serviciu al clădirii vecine.\nSchița consemnează locuri, nu un nume de hoț. Legați fiecare trecere de o declarație, o oră sau un document.\nPlicul putea fi ridicat fără ca persoana să intre în centrul de tineret.",
+      "team": "C",
+      "round": 4,
+      "format": "map",
+      "source": "Fișă de reconstrucție / TR-01",
+      "map": true
+    },
+    {
+      "id": "C42",
+      "title": "Evidența dulapurilor personale",
+      "body": "Spațiul de serviciu al clădirii vecine / evidență valabilă la 2–6 octombrie\nDulap 6: Larisa.\nDulap 8: Victor.\nDulap 10: Gheorghe.\nAdministratorul spațiului confirmă că dulapul 8 era alocat lui Victor în intervalul indicat. Nu este un dulap al centrului de tineret.\nAcest document identifică alocarea locului; se compară cu PR-08 și cu fișa de echipament.",
+      "team": "C",
+      "round": 4,
+      "format": "ledger",
+      "source": "Evidență fictivă / ED-08"
+    },
+    {
+      "id": "C43",
+      "title": "Fișa de numărare a sumei recuperate",
+      "body": "Dosar fictiv 017/2026 / SR-08 / 6 octombrie\nObiect: suma din plicul consemnat în PR-08.\n10 bancnote × 500 lei = 5 000 lei.\nFișa mică din interior are suma scrisă de mână. Inscripția plicului: „5 000 / atelier foto”.\nComparație cu suma reclamată în O02: 5 000 lei.\nNu sunt consemnate aici bani găsiți la Denis, Ana sau Sergiu.",
+      "team": "C",
+      "round": 4,
+      "format": "ledger",
+      "source": "Inventar fictiv / SR-08"
+    },
+    {
+      "id": "F01",
+      "title": "Declarația finală a lui Victor",
+      "body": "6 octombrie / 10:20\nLa 2 octombrie am trecut cu C2 pe lângă intrarea centrului. Am văzut plicul după scaun, pe partea dinspre exterior. L-am ridicat și am văzut că are bani.\nNu îl căutasem și nu plănuisem să îl iau. După ce l-am găsit, am decis să păstrez banii. Am dus plicul în spațiul de serviciu și l-am pus în dulapul meu, nr. 8.\nNu am creat profilul Anei și nu am modificat conversațiile. Când am auzit că sunt acuzați voluntarii, nu am spus nimic despre plic.\nRecunosc că am păstrat cei 5 000 de lei care nu îmi aparțineau.",
+      "team": "comun",
+      "round": 5,
+      "format": "statement",
+      "source": "Declarație finală fictivă / DVI-02"
+    },
+    {
+      "id": "F02",
+      "title": "Proces-verbal de predare a plicului",
+      "body": "Dosar fictiv 017/2026 / PP-09 / 6 octombrie, 11:00\nPredat către Dan: plic crem „5 000 / atelier foto”, fișa mică de numărare și suma de 5 000 lei, conform PR-08 și SR-08.\nDan confirmă că aspectul plicului și suma corespund celor reclamate.\nMaterialele despre contul fals, falsificări și hărțuire sunt păstrate separat în dosarul de joc. Recuperarea banilor nu înseamnă că acuzațiile online au fost corectate.\nNume tipărite de recuzită: Irina Lupu / Dan.",
+      "team": "comun",
+      "round": 5,
+      "format": "police",
+      "source": "Proces-verbal fictiv / PP-09",
+      "artifactTitle": "PROCES-VERBAL DE PREDARE",
+      "capture": "assets/capturi/F02.png"
+    },
+    {
+      "id": "F03",
+      "title": "Ce publicăm după verificare",
+      "body": "Scrieți o corectare scurtă pentru pagina centrului.\n1. Ce sumă a fost recuperată și ce s-a verificat despre plic?\n2. Ce acuzații despre Ana, Sergiu și Dan nu se susțin?\n3. Cine a fabricat materialele și cum se deosebește aceasta de furt?\n4. Cum sprijinim persoanele hărțuite și oprim distribuirea falsurilor?\nNu repetați insultele și nu publicați date personale. Păstrați dovezile înainte de eliminarea materialelor abuzive. În joc nu se publică nimic pe un site real.",
+      "team": "comun",
+      "round": 5,
+      "format": "worksheet",
+      "source": "Fișă de încheiere / răspunsul echipelor"
+    }
+  ],
+  "puzzles": [
+    {
+      "id": "p1",
+      "round": 1,
+      "title": "Fotografia și profilul Anei",
+      "answer": "Fotografia este din ziua precedentă și plicul este pentru AFIȘE. @ana.rusuu imită @ana.rusu. Nu identificăm încă autorul contului și nu excludem toate întrebările despre traseu.",
+      "evidence": [
+        "A11",
+        "A12",
+        "A13",
+        "B11",
+        "B12",
+        "B14"
+      ],
+      "operation": "Compară numele de utilizator, fotografia întreagă și inventarul albumului.",
+      "hints": [
+        "Priviți partea fotografiei care lipsește și adresa exactă a profilului.",
+        "B12 arată AFIȘE; A12 are un „u” în plus față de A13. B14 fixează ziua fotografierii."
+      ]
+    },
+    {
+      "id": "p2",
+      "round": 2,
+      "title": "Conversația despre Sergiu",
+      "answer": "A21 a fost modificată. Originalul A22 spune MAPA și AFIȘELE, apoi descrie apa și mutarea plicului. Împrumutul nu demonstrează furtul.",
+      "evidence": [
+        "A21",
+        "A22",
+        "A24",
+        "C21",
+        "C24"
+      ],
+      "operation": "Compară textul și succesiunea mesajelor cu declarațiile despre masă.",
+      "hints": [
+        "Nu vă opriți la faptul că Sergiu a atins plicul. Verificați cuvintele exacte.",
+        "A22 și C24 confirmă mutarea peste mapă, nu în buzunar. A24 clarifică împrumutul."
+      ]
+    },
+    {
+      "id": "p3",
+      "round": 2,
+      "title": "Cei 300 de lei și documentul despre Dan",
+      "answer": "5 300 − 300 = 5 000 lei. Cheltuiala este anterioară numărării. B21 modifică NOTA 04; B22 și B24 nu atribuie furtul lui Dan.",
+      "evidence": [
+        "O02",
+        "B21",
+        "B22",
+        "B23",
+        "B24",
+        "C23"
+      ],
+      "operation": "Calculează soldul și compară cele două versiuni ale notei.",
+      "hints": [
+        "Căutați cheltuiala și copia care corespunde dosarului, nu cea mai convingătoare ștampilă.",
+        "Bonul C23 este de 300 lei, la 14:35. B21 adaugă acuzația care lipsește din B22."
+      ]
+    },
+    {
+      "id": "p4",
+      "round": 3,
+      "title": "Autorul falsurilor nu este automat hoțul",
+      "answer": "Denis a fabricat profilul, captura și nota. A plecat înainte de punerea plicului pe masă; B32 și B33 confirmă separat deplasarea și prezența la bibliotecă. Nu a luat banii.",
+      "evidence": [
+        "A31",
+        "A32",
+        "A33",
+        "B31",
+        "B32",
+        "B33",
+        "O02"
+      ],
+      "operation": "Separă cele două fapte și compară ora numărării cu documentele independente.",
+      "hints": [
+        "Recunoașterea falsurilor răspunde la o întrebare, nu la toate. Unde era Denis când plicul a fost pe masă?",
+        "Denis pleacă la 15:41, ajunge la 15:54 și este la bibliotecă de la 16:00. Plicul este pe masă la 15:50."
+      ]
+    },
+    {
+      "id": "p5",
+      "round": 3,
+      "title": "Cum a ajuns plicul lângă ușă",
+      "answer": "Sergiu îl mută peste mapă la 16:04; Ana duce mapa la intrare la 16:06 și o deschide; plicul alunecă după scaun, dinspre exterior. C31 plasează ridicarea unui obiect crem la 16:09, după revenirea Anei la 16:08.",
+      "evidence": [
+        "A22",
+        "B13",
+        "C22",
+        "C24",
+        "C31",
+        "C32",
+        "C14"
+      ],
+      "operation": "Ordonează orele și verifică locul care nu apare în fotografia de ansamblu.",
+      "hints": [
+        "Cine a mutat mapa? Ce parte a pragului nu se vede în fotografie?",
+        "Combinați 16:04 → 16:06 → 16:08 → 16:09. Foaia C11 nu cuprinde toți trecătorii de afară."
+      ]
+    },
+    {
+      "id": "p6",
+      "round": 4,
+      "title": "Căruciorul și plicul recuperat",
+      "answer": "Victor folosește C2 la 16:09 și îl duce spre spațiul de serviciu. Plicul este recuperat din dulapul 8, alocat lui. O02/O05 și B42/B43/C43 confirmă obiectul și suma de 5 000 lei. El nu lucrează la centru.",
+      "evidence": [
+        "C31",
+        "C32",
+        "C33",
+        "A41",
+        "A42",
+        "B42",
+        "B43",
+        "C42",
+        "C43",
+        "O02",
+        "O05"
+      ],
+      "operation": "Leagă intervalul C2, locul de depozitare și identificarea plicului. Nu folosi doar profesia sau culoarea găleții.",
+      "hints": [
+        "C2 este comun. Cine îl folosea la ora fixată de livrare? Cui îi aparține dulapul menționat în PR-08?",
+        "La 16:09 C2 este la Victor; C42 atribuie dulapul 8 lui Victor. PR-08 consemnează acolo plicul și suma."
+      ]
+    }
+  ],
+  "moderatorSteps": [
+    {
+      "id": "s0",
+      "title": "Pregătește sala și plicurile",
+      "time": "Înainte de sosirea grupului",
+      "minute": -1,
+      "round": 0,
+      "docs": [],
+      "say": "",
+      "body": "Imprimă pachetele pe echipe și runde. Ține finalul și soluțiile separat. Pune trei etichete de echipă, foi și pixuri pe mese. Ușa din stânga rămâne liberă; canapeaua este în dreapta. Banii sunt numai recuzită.",
+      "check": "Materialele sunt sortate, soluțiile sunt la mine și ieșirea este liberă."
+    },
+    {
+      "id": "s1",
+      "title": "Citește începutul",
+      "time": "0–10 minute",
+      "minute": 0,
+      "round": 0,
+      "docs": [
+        "O01",
+        "O02",
+        "O03",
+        "O04",
+        "O05"
+      ],
+      "say": "E vineri, spre seară. La centrul de tineret se pregătește o întâlnire cu foștii voluntari. Se aduc scaune, se aranjează fotografii și se pregătesc afișe.\nDan, coordonatorul, a numărat împreună cu Mara 5 000 de lei pentru materialele atelierului de fotografie. Banii sunt într-un plic pe masa de lucru. Dan merge după dosarul în care urma să-l pună.\nCând revine, plicul nu mai este acolo. Camera de la intrare nu a înregistrat nimic. Pe pagina centrului apare o fotografie cu Ana și un comentariu care o acuză.\nDan anunță poliția. Câteva zile mai târziu, aveți copii ale documentelor strânse și ale materialelor care au circulat online. Unele persoane nu au spus tot; unele materiale sunt false.\nAflați pe unde a ajuns plicul, cine a luat banii și cine a fabricat acuzațiile. Nu alegeți un vinovat numai fiindcă pare suspect.\nLucrați în trei echipe. După fiecare rundă, puneți informațiile pe masa comună. Tot ce aveți nevoie este în materialele jocului. Nu se caută pe internet și nu se contactează persoane reale.",
+      "body": "Împarte participanții cât mai echilibrat în trei echipe. Predă dosarul comun, câte o fișă de echipă și explică: fiecare concluzie trebuie să aibă o sursă. Nu spune numele hoțului și nu descrie finalul.",
+      "check": "Am citit introducerea și am predat dosarul comun."
+    },
+    {
+      "id": "s2",
+      "title": "Runda 1: Ana și fotografia",
+      "time": "10–30 minute",
+      "minute": 10,
+      "round": 1,
+      "docs": [
+        "A11",
+        "A12",
+        "A13",
+        "A14",
+        "B11",
+        "B12",
+        "B13",
+        "B14",
+        "C11",
+        "C12",
+        "C13",
+        "C14"
+      ],
+      "say": "Au apărut aceste materiale despre Ana. Verificați ce arată ele și ce doar afirmă. La final, fiecare echipă spune ce știe sigur și ce mai trebuie verificat.",
+      "body": "Predă pachetul 1 potrivit fiecărei echipe. După aproximativ 15 minute, reunește concluziile. Acceptă identificarea fotografiei decupate și a profilului imitat, dar nu afirma încă cine le-a fabricat. Dacă termină devreme, cere explicații și contradicții, nu așteptare fără sarcină.",
+      "check": "Echipele au comparat fotografia și profilurile, apoi au pus concluziile în comun."
+    },
+    {
+      "id": "s3",
+      "title": "Runda 2: Sergiu și Dan",
+      "time": "30–50 minute",
+      "minute": 30,
+      "round": 2,
+      "docs": [
+        "A21",
+        "A22",
+        "A23",
+        "A24",
+        "B21",
+        "B22",
+        "B23",
+        "B24",
+        "C21",
+        "C22",
+        "C23",
+        "C24"
+      ],
+      "say": "Au apărut o conversație și o notă care pare de la poliție. Nu presupuneți că sunt autentice. Aveți și materiale cu care le puteți compara.",
+      "body": "Predă pachetele 2. Echipa A verifică mesajele, B documentele și soldul, C declarațiile și bonul. Cere schimb de informații: bonul este la C, iar fișa sumelor la B. Validează separat conversația și diferența de 300 lei.",
+      "check": "Au fost verificate conversația, soldul și copia modificată a notei."
+    },
+    {
+      "id": "s4",
+      "title": "Runda 3: două fapte diferite",
+      "time": "50–70 minute",
+      "minute": 50,
+      "round": 3,
+      "docs": [
+        "A31",
+        "A32",
+        "A33",
+        "B31",
+        "B32",
+        "B33",
+        "C31",
+        "C32",
+        "C33",
+        "C34"
+      ],
+      "say": "Aceste materiale pot identifica autorul falsurilor. Verificați separat dacă el putea lua plicul. Mai aveți declarații despre ce s-a întâmplat lângă ușă.",
+      "body": "Predă pachetele 3. Nu confirma că Denis este hoțul. A are autorul falsurilor, B are verificarea deplasării, C are martorii de lângă ușă. Reunește cele trei piste. Cere ordonarea orelor și precizarea părții exterioare a pragului.",
+      "check": "Echipele au separat falsificările de furt și au refăcut traseul până la ușă."
+    },
+    {
+      "id": "s5",
+      "title": "Runda 4: leagă ultimele probe",
+      "time": "70–85 minute",
+      "minute": 70,
+      "round": 4,
+      "docs": [
+        "A41",
+        "A42",
+        "A43",
+        "B41",
+        "B42",
+        "B43",
+        "C41",
+        "C42",
+        "C43"
+      ],
+      "say": "Verificați cine folosea căruciorul la ora indicată și dacă plicul recuperat este același. Nu alegeți o persoană numai pentru că era prin preajmă.",
+      "body": "Predă pachetele 4 numai după reunirea traseului din runda 3 sau după oferirea indiciului de sprijin. A are programul C2, B recuperarea obiectului, C evidența dulapurilor și suma. Fiecare echipă trebuie să explice o legătură diferită. Acceptă Victor numai cu interval + dulap + plic.",
+      "check": "Verdictul este susținut de ore, echipament, locul de recuperare și identificarea plicului."
+    },
+    {
+      "id": "s6",
+      "title": "Citește finalul și verifică suma",
+      "time": "85–90 minute",
+      "minute": 85,
+      "round": 5,
+      "docs": [
+        "F01",
+        "F02",
+        "F03"
+      ],
+      "say": "Cazul are două persoane implicate în fapte diferite. Citiți finalul și verificați ce s-a recuperat. Acum mai avem de corectat acuzațiile care au circulat.",
+      "body": "Înainte de predarea F01, cere verdictul echipelor cu surse. Apoi oferă declarația lui Victor și predarea plicului. Dacă nu au terminat, folosește finalul asistat și consemnează sprijinul; nu lăsa grupul fără deznodământ.",
+      "check": "Am citit finalul; suma de 5 000 lei și autorii celor două fapte sunt lămuriți."
+    },
+    {
+      "id": "s7",
+      "title": "Încheie fără să repeți hărțuirea",
+      "time": "90–100 minute",
+      "minute": 90,
+      "round": 5,
+      "docs": [
+        "F03"
+      ],
+      "say": "Ce corectăm public? Ce facem pentru Ana și Sergiu? Cum păstrăm dovezile fără să distribuim din nou insultele?",
+      "body": "Cere o corectare scurtă folosind F03. Discutați de ce o fotografie reală poate induce în eroare, de ce un cont cu aceeași poză nu dovedește identitatea și de ce autorul falsurilor nu este automat hoțul. Exportă raportul după sesiune.",
+      "check": "Am discutat corectarea acuzațiilor și sprijinul pentru persoanele hărțuite."
+    }
+  ],
+  "intro": "E vineri, spre seară. La centrul de tineret se pregătește o întâlnire cu foștii voluntari. Se aduc scaune, se aranjează fotografii și se pregătesc afișe.\nDan, coordonatorul, a numărat împreună cu Mara 5 000 de lei pentru materialele atelierului de fotografie. Banii sunt într-un plic pe masa de lucru. Dan merge după dosarul în care urma să-l pună.\nCând revine, plicul nu mai este acolo. Camera de la intrare nu a înregistrat nimic. Pe pagina centrului apare o fotografie cu Ana și un comentariu care o acuză.\nDan anunță poliția. Câteva zile mai târziu, aveți copii ale documentelor strânse și ale materialelor care au circulat online. Unele persoane nu au spus tot; unele materiale sunt false.\nAflați pe unde a ajuns plicul, cine a luat banii și cine a fabricat acuzațiile. Nu alegeți un vinovat numai fiindcă pare suspect.\nLucrați în trei echipe. După fiecare rundă, puneți informațiile pe masa comună. Tot ce aveți nevoie este în materialele jocului. Nu se caută pe internet și nu se contactează persoane reale.",
+  "pdfs": [
+    {
+      "file": "00-ghid-pas-cu-pas.pdf",
+      "title": "Moderator / pas cu pas",
+      "description": "Pregătire, text de citit, predări, sprijin și încheiere",
+      "pages": 11,
+      "round": -1,
+      "team": "moderator",
+      "copies": 1
+    },
+    {
+      "file": "01-dosar-comun.pdf",
+      "title": "Dosarul comun",
+      "description": "O01–O05 / înainte de runda 1",
+      "pages": 5,
+      "round": 0,
+      "team": "comun",
+      "copies": 1
+    },
+    {
+      "file": "02-runda-1-echipa-A.pdf",
+      "title": "Runda 1 / Echipa 1",
+      "description": "Mesaje și conturi / A11, A12, A13, A14",
+      "pages": 4,
+      "round": 1,
+      "team": "A",
+      "copies": 1
+    },
+    {
+      "file": "02-runda-1-echipa-B.pdf",
+      "title": "Runda 1 / Echipa 2",
+      "description": "Fotografii și documente / B11, B12, B13, B14",
+      "pages": 4,
+      "round": 1,
+      "team": "B",
+      "copies": 1
+    },
+    {
+      "file": "02-runda-1-echipa-C.pdf",
+      "title": "Runda 1 / Echipa 3",
+      "description": "Ore, trasee și declarații / C11, C12, C13, C14",
+      "pages": 4,
+      "round": 1,
+      "team": "C",
+      "copies": 1
+    },
+    {
+      "file": "03-runda-2-echipa-A.pdf",
+      "title": "Runda 2 / Echipa 1",
+      "description": "Mesaje și conturi / A21, A22, A23, A24",
+      "pages": 4,
+      "round": 2,
+      "team": "A",
+      "copies": 1
+    },
+    {
+      "file": "03-runda-2-echipa-B.pdf",
+      "title": "Runda 2 / Echipa 2",
+      "description": "Fotografii și documente / B21, B22, B23, B24",
+      "pages": 4,
+      "round": 2,
+      "team": "B",
+      "copies": 1
+    },
+    {
+      "file": "03-runda-2-echipa-C.pdf",
+      "title": "Runda 2 / Echipa 3",
+      "description": "Ore, trasee și declarații / C21, C22, C23, C24",
+      "pages": 4,
+      "round": 2,
+      "team": "C",
+      "copies": 1
+    },
+    {
+      "file": "04-runda-3-echipa-A.pdf",
+      "title": "Runda 3 / Echipa 1",
+      "description": "Mesaje și conturi / A31, A32, A33",
+      "pages": 3,
+      "round": 3,
+      "team": "A",
+      "copies": 1
+    },
+    {
+      "file": "04-runda-3-echipa-B.pdf",
+      "title": "Runda 3 / Echipa 2",
+      "description": "Fotografii și documente / B31, B32, B33",
+      "pages": 3,
+      "round": 3,
+      "team": "B",
+      "copies": 1
+    },
+    {
+      "file": "04-runda-3-echipa-C.pdf",
+      "title": "Runda 3 / Echipa 3",
+      "description": "Ore, trasee și declarații / C31, C32, C33, C34",
+      "pages": 4,
+      "round": 3,
+      "team": "C",
+      "copies": 1
+    },
+    {
+      "file": "05-runda-4-echipa-A.pdf",
+      "title": "Runda 4 / Echipa 1",
+      "description": "Mesaje și conturi / A41, A42, A43",
+      "pages": 3,
+      "round": 4,
+      "team": "A",
+      "copies": 1
+    },
+    {
+      "file": "05-runda-4-echipa-B.pdf",
+      "title": "Runda 4 / Echipa 2",
+      "description": "Fotografii și documente / B41, B42, B43",
+      "pages": 3,
+      "round": 4,
+      "team": "B",
+      "copies": 1
+    },
+    {
+      "file": "05-runda-4-echipa-C.pdf",
+      "title": "Runda 4 / Echipa 3",
+      "description": "Ore, trasee și declarații / C41, C42, C43",
+      "pages": 3,
+      "round": 4,
+      "team": "C",
+      "copies": 1
+    },
+    {
+      "file": "06-final.pdf",
+      "title": "Finalul și corectarea acuzațiilor",
+      "description": "F01–F03 / păstrează în plicul FINAL",
+      "pages": 3,
+      "round": 5,
+      "team": "comun",
+      "copies": 1
+    },
+    {
+      "file": "07-fise-echipe.pdf",
+      "title": "Fișele celor trei echipe",
+      "description": "Câte o fișă de echipă; copii suplimentare la nevoie",
+      "pages": 3,
+      "round": -1,
+      "team": "moderator",
+      "copies": 1
+    },
+    {
+      "file": "08-indicii-moderator.pdf",
+      "title": "Indicii / numai pentru moderator",
+      "description": "Două niveluri pentru fiecare dintre cele șase concluzii",
+      "pages": 6,
+      "round": -1,
+      "team": "moderator",
+      "copies": 1
+    },
+    {
+      "file": "09-solutii-moderator.pdf",
+      "title": "Soluții și dovezi",
+      "description": "Material, operație, răspuns, dependență și verificare",
+      "pages": 6,
+      "round": -1,
+      "team": "moderator",
+      "copies": 1
+    },
+    {
+      "file": "10-harta-salii.pdf",
+      "title": "Harta sălii",
+      "description": "Pagina 1: participanți; pagina 2: moderator",
+      "pages": 2,
+      "round": -1,
+      "team": "moderator",
+      "copies": 1
+    },
+    {
+      "file": "11-recuzita.pdf",
+      "title": "Bani și etichete de recuzită",
+      "description": "10 cartonașe de 500 lei, 14 etichete și fișa plicului",
+      "pages": 3,
+      "round": -1,
+      "team": "moderator",
+      "copies": 1
+    }
+  ],
+  "printPages": 82
+}

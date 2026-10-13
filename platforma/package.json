@@ -1,0 +1,9 @@
+{
+  "name": "plicul-disparut-moderator",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/build-worker.mjs",
+    "test": "node scripts/test-auth.mjs"
+  }
+}

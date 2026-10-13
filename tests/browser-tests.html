@@ -1,0 +1,44 @@
+<!doctype html><html lang="ro"><meta charset="utf-8"><title>QA Plicul dispărut</title><iframe id="game" src="../platforma/offline/index.html" style="width:1440px;height:1000px"></iframe><pre id="qa-result">Verificările rulează…</pre><script>
+const results={passed:[],errors:[]};const frame=document.querySelector('#game');
+frame.addEventListener('load',async function first(){frame.removeEventListener('load',first);let w=frame.contentWindow,d=w.document,c=w.Moderator;
+const check=(name,ok)=>{if(!ok)throw Error(name);results.passed.push(name)};
+const click=s=>{const el=d.querySelector(s);if(!el)throw Error('Lipsește '+s);el.click()};
+const input=(s,v)=>{const el=d.querySelector(s);el.value=v;el.dispatchEvent(new w.Event('input',{bubbles:true}));el.dispatchEvent(new w.Event('change',{bubbles:true}))};
+const change=s=>{const el=d.querySelector(s);el.checked=!el.checked;el.dispatchEvent(new w.Event('change',{bubbles:true}))};
+const submit=s=>d.querySelector(s).dispatchEvent(new w.Event('submit',{bubbles:true,cancelable:true}));const nav=v=>click('.main-nav [data-view='+v+']');
+try{
+check('Scenariul nou este disponibil fără internet',!!c&&w.CASE_DATA.docs.length===51&&w.CASE_DATA.groups.length===3);
+c.resetForTests();check('Cronometru de 100 minute și opt etape',c.state.clock===6000&&d.querySelectorAll('.timeline button').length===8);
+check('Tema din milion și lipsa avertizării premature',w.getComputedStyle(d.documentElement).getPropertyValue('--violet').trim()==='#6e37e8'&&!d.querySelector('.notice'));
+check('Pregătirea nu dezvăluie hoțul',!d.querySelector('#main').textContent.includes('Victor'));
+nav('setup');input('[name=duration]','90');input('[name=groupA]','<img src=x onerror=alert(1)>');submit('#settings-form');check('Durată configurabilă și echipe cu nume proprii',c.state.clock===5400&&c.state.groups.A.includes('<img'));
+input('[name=duration]','100');submit('#settings-form');nav('run');click('[data-action=step][data-index="2"]');check('Trei pachete la prima rundă',d.querySelectorAll('.team-card').length===3);
+check('Numele echipelor sunt escapate',!d.querySelector('img[src=x]')&&d.querySelector('#main').textContent.includes('<img src=x'));
+click('[data-action=packet][data-team=A]');check('Predarea unui pachet consemnează toate foile',c.state.released.filter(id=>id.startsWith('A1')).length===4);
+change('[data-ready="1-A"]');check('Confirmarea echipei este salvată și afișată',c.state.ready['1-A']&&d.querySelector('.team-card .pill').textContent==='Concluzii pregătite');
+click('[data-action=step-packet]');check('Predarea rundei nu dublează ID-urile',c.state.released.length===12&&new Set(c.state.released).size===12);
+change('[data-check=s2]');check('Confirmarea pasului actualizează statistica',c.state.done.includes('s2')&&d.querySelector('.stat b').textContent==='1 / 8');
+click('[data-action=clock]');check('Cronometrul pornește',c.state.running);const originalNow=w.Date.now;const fakeNow=originalNow()+2100;w.Date.now=()=>fakeNow;d.dispatchEvent(new w.Event('visibilitychange'));check('Cronometrul recuperează timpul trecut',c.state.clock<=5998);click('[data-action=clock]');w.Date.now=originalNow;check('Pauza oprește cronometrul',!c.state.running);
+nav('papers');input('#search','A22');check('Căutarea după ID',d.querySelectorAll('.paper').length===1);click('[data-action=doc][data-id=A22]');check('Conversația originală are textul verificabil',d.querySelector('#modal').textContent.includes('Ia mapa. Împărțim afișele după.'));
+let printCalls=0;w.print=()=>printCalls++;click('[data-action=print-doc][data-id=A22]');check('Imprimarea probei folosește rendererul curent',printCalls===1&&d.querySelector('#print-root [data-evidence=A22]'));
+click('[data-action=close]');input('#search','');input('#round-filter','4');input('#team-filter','B');check('Filtrarea rundei și echipei',d.querySelectorAll('.paper').length===3);
+click('[data-action=doc][data-id=B42]');check('Actele sunt marcate fictive',d.querySelector('#modal').textContent.includes('MATERIAL DE JOC')&&d.querySelector('.official-head'));
+click('[data-action=release][data-id=B42]');check('Recuperarea nu se predă înainte de traseu',!c.state.released.includes('B42'));
+click('[data-action=close]');nav('solutions');click('[data-action=hint][data-id=p1][data-level="0"]');click('[data-action=give-hint]');check('Indiciul este în jurnal, nu validează soluția',c.state.log.some(x=>x.type==='indiciu')&&c.state.solved.length===0);
+click('[data-action=solve][data-id=p5]');check('Confirmarea traseului este distinctă',c.state.solved.includes('p5'));
+nav('run');click('[data-action=step][data-index="5"]');click('[data-action=step-packet]');check('Ultimul pachet se poate preda după traseu',['B42','C42','A41'].every(id=>c.state.released.includes(id)));
+click('[data-action=step][data-index="6"]');click('[data-action=step-packet]');check('Finalul cere concluziile sau sprijin',!c.state.released.includes('F01'));
+nav('solutions');for(const id of ['p1','p2','p3','p4','p6'])click('[data-action=solve][data-id='+id+']');check('Șase concluzii independente',c.state.solved.length===6);
+nav('run');click('[data-action=step][data-index="6"]');click('[data-action=step-packet]');click('[data-action=finish]');check('Încheiere după verdict și predarea finalului',c.state.complete&&!c.state.running&&c.state.step===7);
+nav('setup');input('#notes','<scr'+'ipt>alert(1)</scr'+'ipt> / notă de verificare');check('Notele sunt păstrate ca text',!d.querySelector('textarea script')&&c.state.notes.includes('<script>'));
+const snapshot={released:c.state.released.length,solved:c.state.solved.length,notes:c.state.notes,clock:c.state.clock};await new Promise(resolve=>{frame.addEventListener('load',resolve,{once:true});frame.src='../platforma/offline/index.html?reload=qa';});w=frame.contentWindow;d=w.document;c=w.Moderator;
+check('Progresul și notele revin după reîncărcare',c.state.released.length===snapshot.released&&c.state.solved.length===snapshot.solved&&c.state.notes===snapshot.notes&&c.state.clock===snapshot.clock);
+nav('print');check('Lista completă a celor 20 PDF-uri',d.querySelectorAll('.pdf-card').length===20&&d.querySelector('#main').textContent.includes('82 pagini'));
+check('Kitul local are legături locale',Array.from(d.querySelectorAll('#main a')).every(a=>!/^https?:/.test(a.getAttribute('href'))));
+c.resetForTests();nav('papers');check('Resetarea șterge și filtrele',d.querySelectorAll('.paper').length===51&&c.state.released.length===0);
+nav('run');click('[data-action=assist]');click('[data-action=assist-confirm]');check('Sprijinul nu inventează validări',c.state.assisted&&c.state.solved.length===0);
+click('[data-action=step][data-index="6"]');click('[data-action=step-packet]');click('[data-action=finish]');check('Finalul asistat este posibil și consemnat',c.state.complete&&c.state.log.some(x=>x.type==='închidere'&&x.text.includes('sprijin')));
+nav('setup');click('[data-action=reset-confirm]');click('[data-action=close]');check('Anularea resetării păstrează sesiunea',c.state.complete);click('[data-action=reset-confirm]');click('[data-action=reset]');check('Sesiune nouă fără resturi',!c.state.complete&&!c.state.assisted&&c.state.log.length===0&&c.state.clock===6000);
+check('Cele două fotografii au referințe distincte',c.documentHTML(c.docById('O05')).includes('photo-2')&&c.documentHTML(c.docById('B43')).includes('plic-recuperat.jpg'));
+}catch(e){results.errors.push(e.message)}document.querySelector('#qa-result').textContent=JSON.stringify(results);});
+</script></html>

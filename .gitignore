@@ -1,0 +1,23 @@
+__pycache__/
+.qa/
+IMG_*.jpg
+platforma/.openai/
+*.pyc
+platforma/.sites-runtime/
+platforma/.sites-checkout/
+
+.venv/
+
+# Build-uri locale și dependențe
+platforma/dist/
+node_modules/
+
+# Versiunile anterioare rămân în arhiva locală
+ECOUL-kit-complet.zip
+ULTIMUL-SEMNAL-kit-complet.zip
+CONCEPT-SPRE-APROBARE.md
+CONCEPT-PLICUL-DISPARUT-V2.md
+scripts/case_v2.py
+scripts/content.py
+scripts/refine.py
+scripts/moderator_steps.py

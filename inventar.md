@@ -1,0 +1,53 @@
+# Plicul dispărut / inventar
+
+- O01 / Plicul dispărut / runda 0 / echipa comun
+- O02 / Fișa de numărare a plicului / runda 0 / echipa comun
+- O03 / Proces-verbal de constatare / extras / runda 0 / echipa comun
+- O04 / Camera de la intrare / cerere de reparație / runda 0 / echipa comun
+- O05 / Plicul înainte de pregătiri / runda 0 / echipa comun
+- A11 / Postarea care o acuză pe Ana / runda 1 / echipa A
+- A12 / Profilul cu mesajul despre bani / runda 1 / echipa A
+- A13 / Profilul folosit de Ana înainte de caz / runda 1 / echipa A
+- A14 / Prima declarație a Anei / runda 1 / echipa A
+- B11 / Fotografia distribuită / runda 1 / echipa B
+- B12 / Fotografia întreagă / runda 1 / echipa B
+- B13 / Sala în timpul pregătirilor / runda 1 / echipa B
+- B14 / Fișa fotografiilor originale / runda 1 / echipa B
+- C11 / Cine a fost în sală / runda 1 / echipa C
+- C12 / Nota lui Dan despre interval / runda 1 / echipa C
+- C13 / Lista de lucru pentru intrare / runda 1 / echipa C
+- C14 / Schița locului / runda 1 / echipa C
+- A21 / Captura despre Sergiu / runda 2 / echipa A
+- A22 / Conversația furnizată de Ana / runda 2 / echipa A
+- A23 / Ce a primit Ana după acuzație / runda 2 / echipa A
+- A24 / Împrumutul lui Sergiu / runda 2 / echipa A
+- B21 / Documentul care circulă în grup / runda 2 / echipa B
+- B22 / Nota 04 / copia verificată / runda 2 / echipa B
+- B23 / Fișa încasărilor și soldului / runda 2 / echipa B
+- B24 / Clarificarea copiei distribuite / runda 2 / echipa B
+- C21 / Declarația lui Sergiu / runda 2 / echipa C
+- C22 / Ana completează declarația / runda 2 / echipa C
+- C23 / Bonul pentru cei 300 de lei / runda 2 / echipa C
+- C24 / Mara despre masa udă / runda 2 / echipa C
+- A31 / Conversația primită de la Lilia / runda 3 / echipa A
+- A32 / Declarația Liliei / runda 3 / echipa A
+- A33 / Declarația lui Denis / runda 3 / echipa A
+- B31 / Inventarul materialelor comparate / runda 3 / echipa B
+- B32 / Fișa de sosire la atelierul din bibliotecă / runda 3 / echipa B
+- B33 / Bonul de deplasare / runda 3 / echipa B
+- C31 / Declarația curierului / runda 3 / echipa C
+- C32 / Documentul de livrare / runda 3 / echipa C
+- C33 / Declarația vecinei / runda 3 / echipa C
+- C34 / Verificarea tehnică a camerei / runda 3 / echipa C
+- A41 / Programul curățeniei de alături / runda 4 / echipa A
+- A42 / Predarea căruciorului / runda 4 / echipa A
+- A43 / Relatarea inițială a lui Victor / runda 4 / echipa A
+- B41 / Căruciorul din zona de serviciu / runda 4 / echipa B
+- B42 / Proces-verbal privind recuperarea / extras / runda 4 / echipa B
+- B43 / Fotografia plicului recuperat / runda 4 / echipa B
+- C41 / Schița traseului refăcut / runda 4 / echipa C
+- C42 / Evidența dulapurilor personale / runda 4 / echipa C
+- C43 / Fișa de numărare a sumei recuperate / runda 4 / echipa C
+- F01 / Declarația finală a lui Victor / runda 5 / echipa comun
+- F02 / Proces-verbal de predare a plicului / runda 5 / echipa comun
+- F03 / Ce publicăm după verificare / runda 5 / echipa comun

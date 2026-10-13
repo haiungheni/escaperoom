@@ -1,0 +1,27 @@
+{
+  "title": "Plicul dispărut",
+  "orientation": "Ușa pe stânga; canapeaua pe dreapta",
+  "teams": 3,
+  "stations": [
+    {
+      "id": "A",
+      "name": "Mesaje și conturi",
+      "x": 397,
+      "y": 405
+    },
+    {
+      "id": "B",
+      "name": "Fotografii și documente",
+      "x": 759,
+      "y": 689
+    },
+    {
+      "id": "C",
+      "name": "Ore și trasee",
+      "x": 626,
+      "y": 596
+    }
+  ],
+  "moderator": "Dan / masă laterală",
+  "offline": true
+}
